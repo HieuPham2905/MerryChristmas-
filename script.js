@@ -43,12 +43,6 @@ document.getElementById("closeButton").addEventListener("click", function () {
   }, 500);
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  var encodedText = '&#68;&#101;&#115;&#105;&#103;&#110;&#32;&#98;&#121;&#32;&#80;&#97;&#110;&#98;&#97;&#112;';
-  var footer = document.createElement("a");
-  footer.innerHTML = encodedText;
-  document.body.appendChild(footer); 
-});
 const treeIcon = document.querySelector(".tree-icon");
 
 treeIcon.addEventListener("mouseenter", function () {
